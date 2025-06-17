@@ -1,0 +1,5 @@
+model_name: gpt-4o-mini
+instruction: True
+prompt_type: base
+input_data_path: ADD_PATH_TO_COMMENT_FILE # path to your YouTube comments file
+output_path: ADD_PATH_FOR_OUTPUT   # where to save predictions
