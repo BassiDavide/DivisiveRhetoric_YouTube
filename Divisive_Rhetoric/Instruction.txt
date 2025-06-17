@@ -1,0 +1,4 @@
+To launch this script, use in the terminal the following command: 
+python Divisive_Rhetoric.py -c config.yaml
+
+To change prompt directly modify the python file. To change the input/output directory change the Yaml file
