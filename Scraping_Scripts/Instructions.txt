@@ -1,0 +1,24 @@
+Start by running the scraping script. 
+It just needs to have the YouTube API inserted, which can be found in the YouTube API console, and .csv files paths where to save the results. 
+At the moment, the script is set to look for immigration videos, to change to climate, it's just necessary commenting out the immigration query, and viceversa with the climate, like this: 
+
+#queries = [
+#    'immigration',
+#    'migration crisis',
+#    'asylum refugees seeker',
+#    'border control',
+#    'migrant welcoming',
+#    'solidarity migrants',
+#]
+
+# Climate
+queries = [
+    'climate change'
+    'global warming'
+    'climate activism'
+    'climate policies'
+    'climate change hoax'
+    'eco anxiety'
+]
+
+The comment scraper, just need as input the path of the file containing the list of videos from which crawl the comments. 
